@@ -1,0 +1,188 @@
+body {
+    background-color: #5CDB95;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+nav {
+
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav:hover {
+    background-color: #05386B;
+
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.window {
+    background-color: #05386B;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border-radius: 2%;
+    text-align: center;
+    font-size: 25px;
+    border: solid white 5px ;
+    width: fit-content;
+    height: fit-content;
+    max-width: 800px;
+}
+
+.tr {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hr {
+    size: 5px;
+    border-width: 3px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+#btn {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 60px;
+    border-radius: 7%;
+    color: white;
+    background-color: #5CDB95;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    border-color: white;
+}
+
+#btn:hover {
+    transform: translateY(-4px);
+    background-color: #AD310B;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+
+    color: #000;
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+
+    border-color: #000;
+    border-style: solid;
+
+
+}
+
+input {
+    display: inline-flexbox;
+    width: max-content;
+    height: max-content;
+}
+
+.question {
+    margin: 10px;
+    font-weight: 700;
+    max-width: 800px;
+}
+
+.answers {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.answers p {
+    background-color: #576CBC;
+    border-radius: 1.5%;
+
+}
+
+.choice1 {
+    opacity: 0.7;
+}
+.choice2 {
+    opacity: 0.7;
+}
+.choice3 {
+    opacity: 0.7;
+}
+.choice4 {
+    opacity: 0.7;
+}
+
+.choice5 {
+    opacity: 0.7;
+}
+
+.choice1:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-4px);
+
+}
+.choice2:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+.choice3:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+.choice4:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.choice5:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.choice1:active {
+    transform: translateY(4px);
+}
+
+.choice2:active {
+    transform: translateY(4px);
+}
+
+.choice3:active {
+    transform: translateY(4px);
+}
+
+.choice4:active {
+    transform: translateY(4px);
+}
+
+.choice5:active {
+    transform: translateY(4px);
+}
+
+#score {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
